@@ -5,7 +5,7 @@
 </h1>
 
 <p align="center">
-  <a href="[https://linkedin.com/in/mohammedabood](https://www.linkedin.com/in/mohammed-a-a209001aa/)"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/mohammed-a-a209001aa"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="mailto:mohd.aboud@outlook.com"><img alt="Email" src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <img alt="Location" src="https://img.shields.io/badge/Based%20in-Saudi%20Arabia-006C35?style=for-the-badge" />
   <img alt="Open to work" src="https://img.shields.io/badge/Open%20to-Senior%20Architect%20Roles-2EA44F?style=for-the-badge" />
@@ -187,7 +187,7 @@ mindmap
 ## 🤝 Let's Connect
 
 <p>
-  <a href="[https://linkedin.com/in/mohammedabood](https://www.linkedin.com/in/mohammed-a-a209001aa/)">
+  <a href="https://www.linkedin.com/in/mohammed-a-a209001aa">
     <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="mailto:mohd.aboud@outlook.com">
