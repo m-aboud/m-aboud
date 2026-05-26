@@ -145,7 +145,7 @@ open_to:     Senior Architect • Solutions Architect • Presales • Platform 
   <img alt="CKA" src="https://img.shields.io/badge/CNCF-Certified%20Kubernetes%20Admin-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
 </p>
 
-> 📜 Verify all certifications via my [Credly profile].(https://www.credly.com/users/mohammed-aboud.937de765)) <!-- update once your Credly URL is live -->
+> 📜 Verify all certifications via my [Credly profile].(https://www.credly.com/users/mohammed-aboud.937de765) <!-- update once your Credly URL is live -->
 
 ---
 
