@@ -143,8 +143,15 @@ open_to:     Senior Architect • Solutions Architect • Presales • Platform 
 ## 📈 GitHub Activity
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=m-aboud&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=m-aboud&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" />
+  <img
+    width="49%"
+    src="https://github-readme-stats.vercel.app/api?username=m-aboud&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"
+  />
+
+  <img
+    width="49%"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=m-aboud&layout=compact&theme=tokyonight&hide_border=true"
+  />
 </p>
 
 <p align="center">
