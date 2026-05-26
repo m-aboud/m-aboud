@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=mohammedabood&label=Profile%20views&color=4F8FF7&style=flat-square" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=m-aboud&label=Profile%20views&color=4F8FF7&style=flat-square" alt="Profile views" />
 </p>
 
 ---
@@ -76,6 +76,7 @@ open_to:     Senior Architect • Solutions Architect • Presales • Platform 
 
 | Project | Description | Stack |
 |---|---|---|
+| 🚀 [**GitOps CI/CD Platform**](https://github.com/m-aboud/gitops-cicd-platform) | Full Terraform → EKS → Argo CD → Rollouts → Kyverno reference platform with signed images & SLSA provenance | `Terraform` `Argo CD` `K8s` `Cosign` `Trivy` `Kyverno` |
 | 🤖 [**AI Job Agent**](https://github.com/m-aboud/ai-job-agent) | LLM-powered job discovery, ranking, CV tailoring & Telegram alerts | `Python` `Playwright` `LLMs` `Docker` `SQLite` |
 | 🏢 [**Data Center Ops Toolkit**](https://github.com/m-aboud/datacenter-ops-toolkit) | Calculators & playbooks for UPS, generators, cooling, capacity & RCA | `Python` `CLI` `Markdown` |
 | ⚙️ [**Infra Automation Lab**](https://github.com/m-aboud/infra-automation-lab) | Production-grade Terraform, Ansible, Docker & Kubernetes patterns | `Terraform` `Ansible` `K8s` `GH Actions` |
@@ -145,7 +146,7 @@ open_to:     Senior Architect • Solutions Architect • Presales • Platform 
   <img alt="CKA" src="https://img.shields.io/badge/CNCF-Certified%20Kubernetes%20Admin-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
 </p>
 
-> 📜 Verify all certifications via my [Credly profile](https://www.credly.com/users/mohammed-aboud.937de765) <!-- update once your Credly URL is live -->
+📜 Verify all certifications via my [Credly profile](https://www.credly.com/users/mohammed-aboud.937de765)
 
 ---
 
@@ -163,7 +164,7 @@ open_to:     Senior Architect • Solutions Architect • Presales • Platform 
 
 ```mermaid
 mindmap
-  root((Mohammed Abood))
+  root((Mohammed Aboud))
     AI Infrastructure
       GPU Platforms
       LLM Operations
