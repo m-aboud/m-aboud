@@ -76,12 +76,12 @@ open_to:     Senior Architect • Solutions Architect • Presales • Platform 
 
 | Project | Description | Stack |
 |---|---|---|
-| 🤖 [**AI Job Agent**](https://github.com/mohammedabood/ai-job-agent) | LLM-powered job discovery, ranking, CV tailoring & Telegram alerts | `Python` `Playwright` `LLMs` `Docker` `SQLite` |
-| 🏢 [**Data Center Ops Toolkit**](https://github.com/mohammedabood/datacenter-ops-toolkit) | Calculators & playbooks for UPS, generators, cooling, capacity & RCA | `Python` `CLI` `Markdown` |
-| ⚙️ [**Infra Automation Lab**](https://github.com/mohammedabood/infra-automation-lab) | Production-grade Terraform, Ansible, Docker & Kubernetes patterns | `Terraform` `Ansible` `K8s` `GH Actions` |
-| 📊 [**Observability Platform**](https://github.com/mohammedabood/observability-platform) | Full Prometheus + Grafana + Loki + Alertmanager stack with rules | `Docker` `Prometheus` `Grafana` `Loki` |
-| 🧠 [**AI Infrastructure Blueprints**](https://github.com/mohammedabood/ai-infrastructure-blueprints) | Reference architectures for AI-ready DCs, GPU clusters, K8s scheduling | `Markdown` `Mermaid` `K8s` `GPU` |
-| 📁 [**Portfolio**](https://github.com/mohammedabood/portfolio) | Architecture samples, PoC writeups & solution design artefacts | `Markdown` `Diagrams` |
+| 🤖 [**AI Job Agent**](https://github.com/m-aboud/ai-job-agent) | LLM-powered job discovery, ranking, CV tailoring & Telegram alerts | `Python` `Playwright` `LLMs` `Docker` `SQLite` |
+| 🏢 [**Data Center Ops Toolkit**](https://github.com/m-aboud/datacenter-ops-toolkit) | Calculators & playbooks for UPS, generators, cooling, capacity & RCA | `Python` `CLI` `Markdown` |
+| ⚙️ [**Infra Automation Lab**](https://github.com/m-aboud/infra-automation-lab) | Production-grade Terraform, Ansible, Docker & Kubernetes patterns | `Terraform` `Ansible` `K8s` `GH Actions` |
+| 📊 [**Observability Platform**](https://github.com/m-aboud/observability-platform) | Full Prometheus + Grafana + Loki + Alertmanager stack with rules | `Docker` `Prometheus` `Grafana` `Loki` |
+| 🧠 [**AI Infrastructure Blueprints**](https://github.com/m-aboud/ai-infrastructure-blueprints) | Reference architectures for AI-ready DCs, GPU clusters, K8s scheduling | `Markdown` `Mermaid` `K8s` `GPU` |
+| 📁 [**Portfolio**](https://github.com/m-aboud/portfolio) | Architecture samples, PoC writeups & solution design artefacts | `Markdown` `Diagrams` |
 
 ---
 
@@ -145,7 +145,7 @@ open_to:     Senior Architect • Solutions Architect • Presales • Platform 
   <img alt="CKA" src="https://img.shields.io/badge/CNCF-Certified%20Kubernetes%20Admin-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
 </p>
 
-> 📜 Verify all certifications via my [Credly profile]([https://www.credly.com/users/mohammedabood](https://www.credly.com/users/mohammed-aboud.937de765)) <!-- update once your Credly URL is live -->
+> 📜 Verify all certifications via my [Credly profile].(https://www.credly.com/users/mohammed-aboud.937de765)) <!-- update once your Credly URL is live -->
 
 ---
 
