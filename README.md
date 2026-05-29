@@ -76,6 +76,7 @@ open_to:     Senior Architect • Solutions Architect • Presales • Platform 
 
 | Project | Description | Stack |
 |---|---|---|
+| 🟩 [**NVIDIA AI & HPC Portfolio**](https://github.com/m-aboud/nvidia-ai-hpc-portfolio) | CUDA benchmarking, AI/HPC cluster capacity planning & NVIDIA GPU observability — software-level GPU awareness tied to real data center concerns | `CUDA C++` `Python` `Docker` `DCGM` `Prometheus` `Grafana` |
 | 🚀 [**GitOps CI/CD Platform**](https://github.com/m-aboud/gitops-cicd-platform) | Full Terraform → EKS → Argo CD → Rollouts → Kyverno reference platform with signed images & SLSA provenance | `Terraform` `Argo CD` `K8s` `Cosign` `Trivy` `Kyverno` |
 | 🤖 [**AI Job Agent**](https://github.com/m-aboud/ai-job-agent) | LLM-powered job discovery, ranking, CV tailoring & Telegram alerts | `Python` `Playwright` `LLMs` `Docker` `SQLite` |
 | 🏢 [**Data Center Ops Toolkit**](https://github.com/m-aboud/datacenter-ops-toolkit) | Calculators & playbooks for UPS, generators, cooling, capacity & RCA | `Python` `CLI` `Markdown` |
@@ -86,7 +87,83 @@ open_to:     Senior Architect • Solutions Architect • Presales • Platform 
 
 ---
 
-## 🛠️ Tech Stack
+## 🟩 Spotlight — NVIDIA AI & HPC Portfolio
+
+[![CI](https://github.com/m-aboud/nvidia-ai-hpc-portfolio/actions/workflows/python-check.yml/badge.svg)](https://github.com/m-aboud/nvidia-ai-hpc-portfolio/actions/workflows/python-check.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/m-aboud/nvidia-ai-hpc-portfolio/blob/main/LICENSE)
+![CUDA](https://img.shields.io/badge/CUDA-C%2B%2B-76B900?logo=nvidia&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white)
+
+A hands-on portfolio for **AI Infrastructure, GPU Computing, HPC, and NVIDIA-ecosystem roles** — connecting software-level GPU awareness to the real production concerns of an AI factory: **performance, capacity, power, cooling, and observability**.
+
+The three components mirror the lifecycle of a GPU platform — **plan** the facility, **build & benchmark** the workloads, then **operate & observe** the fleet:
+
+```mermaid
+flowchart LR
+    subgraph Plan["Plan"]
+        A[ai-cluster-capacity-planner<br/>GPUs -> racks, power, cooling, PUE]
+    end
+    subgraph Build["Build & Benchmark"]
+        B[cuda-benchmark-suite<br/>CPU vs GPU kernel performance]
+    end
+    subgraph Operate["Operate"]
+        C[gpu-observability-platform<br/>DCGM -> Prometheus -> Grafana]
+    end
+    A --> B --> C
+    C -. telemetry informs replanning .-> A
+```
+
+<table>
+  <tr>
+    <td valign="top" width="33%">
+
+**⚡ CUDA Benchmark Suite**
+
+CUDA C++ comparing CPU vs GPU for common parallel workloads.
+
+- Vector add, matrix multiply, image blur
+- CUDA event timing & validation
+- Reproducible Makefile + Docker build
+
+*Demonstrates:* kernel launch config, memory transfer, performance methodology.
+
+</td>
+    <td valign="top" width="33%">
+
+**📐 AI Cluster Capacity Planner**
+
+Dependency-free Python CLI turning GPU counts into data center requirements.
+
+- GPU → rack count, IT & facility load
+- PUE-adjusted power + cooling tonnage
+- H100 / H200 / B200 / GB200 profiles
+- Unit-tested, `--json` output
+
+*Demonstrates:* high-density rack sizing, power/cooling math, executive-ready outputs.
+
+</td>
+    <td valign="top" width="33%">
+
+**📊 GPU Observability Platform**
+
+Docker stack for NVIDIA GPU telemetry.
+
+- NVIDIA DCGM Exporter
+- Prometheus + provisioned Grafana
+- Utilization, memory, power, temp, ECC, health
+
+*Demonstrates:* GPU fleet monitoring, incident detection, operations readiness.
+
+</td>
+  </tr>
+</table>
+
+> **Resume bullet:** Built a GitHub portfolio demonstrating CUDA benchmarking, AI/HPC cluster capacity planning, and NVIDIA GPU observability using CUDA C++, Python, Docker, Prometheus, Grafana, and NVIDIA DCGM Exporter.
+
+➡️ **Explore the repo:** [github.com/m-aboud/nvidia-ai-hpc-portfolio](https://github.com/m-aboud/nvidia-ai-hpc-portfolio)
+
+---
 
 ## 🛠️ Tech Stack
 
@@ -123,6 +200,8 @@ open_to:     Senior Architect • Solutions Architect • Presales • Platform 
   <img alt="Anthropic" src="https://img.shields.io/badge/Anthropic-D4A27F?style=flat-square&logo=anthropic&logoColor=white" />
   <img alt="LangChain" src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
   <img alt="NVIDIA GPU" src="https://img.shields.io/badge/NVIDIA%20GPU-76B900?style=flat-square&logo=nvidia&logoColor=white" />
+  <img alt="CUDA" src="https://img.shields.io/badge/CUDA-C%2B%2B-76B900?style=flat-square&logo=nvidia&logoColor=white" />
+  <img alt="DCGM" src="https://img.shields.io/badge/NVIDIA%20DCGM-76B900?style=flat-square&logo=nvidia&logoColor=white" />
 </p>
 
 <p>
