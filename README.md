@@ -99,19 +99,37 @@ A hands-on portfolio for **AI Infrastructure, GPU Computing, HPC, and NVIDIA-eco
 
 The three components mirror the lifecycle of a GPU platform — **plan** the facility, **build & benchmark** the workloads, then **operate & observe** the fleet:
 
+ 
 ```mermaid
-flowchart LR
-    subgraph Plan["Plan"]
-        A[ai-cluster-capacity-planner<br/>GPUs -> racks, power, cooling, PUE]
-    end
-    subgraph Build["Build & Benchmark"]
-        B[cuda-benchmark-suite<br/>CPU vs GPU kernel performance]
-    end
-    subgraph Operate["Operate"]
-        C[gpu-observability-platform<br/>DCGM -> Prometheus -> Grafana]
-    end
-    A --> B --> C
-    C -. telemetry informs replanning .-> A
+flowchart TB
+    ROOT([Mohammed Aboud]):::root
+ 
+    ROOT --> AI[AI Infrastructure]:::ai
+    ROOT --> CLOUD[Cloud Platforms]:::cloud
+    ROOT --> DC[Data Center]:::dc
+    ROOT --> ARCH[Architecture]:::arch
+ 
+    AI --> AI1[GPU Platforms]:::ai
+    AI --> AI2[LLM Operations]:::ai
+    AI --> AI3[AI-Ready DCs]:::ai
+ 
+    CLOUD --> C1[Hybrid Cloud]:::cloud
+    CLOUD --> C2[Kubernetes]:::cloud
+    CLOUD --> C3[Platform Engineering]:::cloud
+ 
+    DC --> D1[Modernization]:::dc
+    DC --> D2[Capacity Planning]:::dc
+    DC --> D3[Operational Excellence]:::dc
+ 
+    ARCH --> R1[Solution Design]:::arch
+    ARCH --> R2[Presales]:::arch
+    ARCH --> R3[Enterprise Architecture]:::arch
+ 
+    classDef root fill:#4F8FF7,stroke:#1b4f9c,color:#ffffff,font-weight:bold
+    classDef ai fill:#3a1f2b,stroke:#D14836,color:#ffffff
+    classDef cloud fill:#3a1030,stroke:#A6228C,color:#ffffff
+    classDef dc fill:#15303a,stroke:#2EA6A6,color:#ffffff
+    classDef arch fill:#3a2a18,stroke:#B5651D,color:#ffffff
 ```
 
 <table>
@@ -246,6 +264,7 @@ Docker stack for NVIDIA GPU telemetry.
   <img alt="Azure DevOps" src="https://img.shields.io/badge/Azure-DevOps%20Expert-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" />
   <img alt="Terraform" src="https://img.shields.io/badge/HashiCorp-Terraform%20Associate-7B42BC?style=flat-square&logo=terraform&logoColor=white" />
   <img alt="CKA" src="https://img.shields.io/badge/CNCF-Certified%20Kubernetes%20Admin-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
+  <img alt="NVIDIA NCA-AIIO" src="https://img.shields.io/badge/NVIDIA-NCA--AIIO%20AI%20Infrastructure%20%26%20Operations-76B900?style=flat-square&logo=nvidia&logoColor=white" />
 </p>
 
 📜 Verify all certifications via my [Credly profile](https://www.credly.com/users/mohammed-aboud.937de765)
