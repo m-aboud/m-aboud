@@ -76,6 +76,7 @@ open_to:     Senior Architect • Solutions Architect • Presales • Platform 
 
 | Project | Description | Stack |
 |---|---|---|
+| 🟩 [**OpenClaw MCP Agentic Lab**](https://github.com/m-aboud/openclaw-mcp-agentic-lab) | OpenClaw gateway · MCP tool server · Claude + OSS models | 'Model Context Protocol (MCP) server' 'multi-agent orchestration' 'Anthropic Claude API' 'Ollama (OSS models)' 'deterministic mock provider' 'FastAPI webhook adapter' 'Typer' 'Rich CLI` |
 | 🟩 [**NVIDIA AI & HPC Portfolio**](https://github.com/m-aboud/nvidia-ai-hpc-portfolio) | CUDA benchmarking, AI/HPC cluster capacity planning & NVIDIA GPU observability — software-level GPU awareness tied to real data center concerns | `CUDA C++` `Python` `Docker` `DCGM` `Prometheus` `Grafana` |
 | 🚀 [**GitOps CI/CD Platform**](https://github.com/m-aboud/gitops-cicd-platform) | Full Terraform → EKS → Argo CD → Rollouts → Kyverno reference platform with signed images & SLSA provenance | `Terraform` `Argo CD` `K8s` `Cosign` `Trivy` `Kyverno` |
 | 🤖 [**AI Job Agent**](https://github.com/m-aboud/ai-job-agent) | LLM-powered job discovery, ranking, CV tailoring & Telegram alerts | `Python` `Playwright` `LLMs` `Docker` `SQLite` |
