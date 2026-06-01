@@ -23,6 +23,8 @@ I design and deliver **enterprise infrastructure, hybrid cloud platforms, AI aut
 
 My work bridges **infrastructure reliability**, **business transformation**, and **automation** — from data center operations and cloud architecture to AI-enabled platforms, observability, and operational excellence.
 
+**Introducing the OpenClaw Enterprise Platform**: A master architecture, documentation, governance, and portfolio repository that unifies all my OpenClaw projects into a single, cohesive enterprise solution. This platform serves as a central hub demonstrating my expertise in building and leading modern cloud initiatives at scale.
+
 ```yaml
 role:        Senior Infrastructure & Cloud Architect
 focus:       AI Infrastructure • Hybrid Cloud • Data Center Modernization
@@ -76,6 +78,7 @@ open_to:     Senior Architect • Solutions Architect • Presales • Platform 
 
 | Project | Description | Stack |
 |---|---|---|
+| 🌟 [**OpenClaw Enterprise Platform**](https://github.com/m-aboud/openclaw-enterprise-platform) | Master architecture, documentation, and governance repository unifying all OpenClaw projects. | `Platform Engineering` `Cloud Architecture` `GitOps` `Zero Trust` `SRE` `AI Infra` |
 | 🟩 [**OpenClaw MCP Agentic Lab**](https://github.com/m-aboud/openclaw-mcp-agentic-lab) | OpenClaw gateway · MCP tool server · Claude + OSS models | `Python` `MCP` `Claude API` `Ollama` `FastAPI` `Typer` `Rich` `Docker` |
 | 🟩 [**NVIDIA AI & HPC Portfolio**](https://github.com/m-aboud/nvidia-ai-hpc-portfolio) | CUDA benchmarking, AI/HPC cluster capacity planning & NVIDIA GPU observability — software-level GPU awareness tied to real data center concerns | `CUDA C++` `Python` `Docker` `DCGM` `Prometheus` `Grafana` |
 | 🚀 [**GitOps CI/CD Platform**](https://github.com/m-aboud/gitops-cicd-platform) | Full Terraform → EKS → Argo CD → Rollouts → Kyverno reference platform with signed images & SLSA provenance | `Terraform` `Argo CD` `K8s` `Cosign` `Trivy` `Kyverno` |
@@ -88,153 +91,19 @@ open_to:     Senior Architect • Solutions Architect • Presales • Platform 
 
 ---
 
-## 🟩 Spotlight — NVIDIA AI & HPC Portfolio
+## 🌟 OpenClaw Enterprise Platform — Interview-Ready Summary
 
-[![CI](https://github.com/m-aboud/nvidia-ai-hpc-portfolio/actions/workflows/python-check.yml/badge.svg)](https://github.com/m-aboud/nvidia-ai-hpc-portfolio/actions/workflows/python-check.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/m-aboud/nvidia-ai-hpc-portfolio/blob/main/LICENSE)
-![CUDA](https://img.shields.io/badge/CUDA-C%2B%2B-76B900?logo=nvidia&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white)
-
-A hands-on portfolio for **AI Infrastructure, GPU Computing, HPC, and NVIDIA-ecosystem roles** — connecting software-level GPU awareness to the real production concerns of an AI factory: **performance, capacity, power, cooling, and observability**.
-
-The three components mirror the lifecycle of a GPU platform — **plan** the facility, **build & benchmark** the workloads, then **operate & observe** the fleet:
-
- 
-```mermaid
-flowchart TB
-    ROOT([Mohammed Aboud]):::root
- 
-    ROOT --> AI[AI Infrastructure]:::ai
-    ROOT --> CLOUD[Cloud Platforms]:::cloud
-    ROOT --> DC[Data Center]:::dc
-    ROOT --> ARCH[Architecture]:::arch
- 
-    AI --> AI1[GPU Platforms]:::ai
-    AI --> AI2[LLM Operations]:::ai
-    AI --> AI3[AI-Ready DCs]:::ai
- 
-    CLOUD --> C1[Hybrid Cloud]:::cloud
-    CLOUD --> C2[Kubernetes]:::cloud
-    CLOUD --> C3[Platform Engineering]:::cloud
- 
-    DC --> D1[Modernization]:::dc
-    DC --> D2[Capacity Planning]:::dc
-    DC --> D3[Operational Excellence]:::dc
- 
-    ARCH --> R1[Solution Design]:::arch
-    ARCH --> R2[Presales]:::arch
-    ARCH --> R3[Enterprise Architecture]:::arch
- 
-    classDef root fill:#4F8FF7,stroke:#1b4f9c,color:#ffffff,font-weight:bold
-    classDef ai fill:#3a1f2b,stroke:#D14836,color:#ffffff
-    classDef cloud fill:#3a1030,stroke:#A6228C,color:#ffffff
-    classDef dc fill:#15303a,stroke:#2EA6A6,color:#ffffff
-    classDef arch fill:#3a2a18,stroke:#B5651D,color:#ffffff
-```
-
-<table>
-  <tr>
-    <td valign="top" width="33%">
-
-**⚡ CUDA Benchmark Suite**
-
-CUDA C++ comparing CPU vs GPU for common parallel workloads.
-
-- Vector add, matrix multiply, image blur
-- CUDA event timing & validation
-- Reproducible Makefile + Docker build
-
-*Demonstrates:* kernel launch config, memory transfer, performance methodology.
-
-</td>
-    <td valign="top" width="33%">
-
-**📐 AI Cluster Capacity Planner**
-
-Dependency-free Python CLI turning GPU counts into data center requirements.
-
-- GPU → rack count, IT & facility load
-- PUE-adjusted power + cooling tonnage
-- H100 / H200 / B200 / GB200 profiles
-- Unit-tested, `--json` output
-
-*Demonstrates:* high-density rack sizing, power/cooling math, executive-ready outputs.
-
-</td>
-    <td valign="top" width="33%">
-
-**📊 GPU Observability Platform**
-
-Docker stack for NVIDIA GPU telemetry.
-
-- NVIDIA DCGM Exporter
-- Prometheus + provisioned Grafana
-- Utilization, memory, power, temp, ECC, health
-
-*Demonstrates:* GPU fleet monitoring, incident detection, operations readiness.
-
-</td>
-  </tr>
-</table>
-
-> **Resume bullet:** Built a GitHub portfolio demonstrating CUDA benchmarking, AI/HPC cluster capacity planning, and NVIDIA GPU observability using CUDA C++, Python, Docker, Prometheus, Grafana, and NVIDIA DCGM Exporter.
-
-➡️ **Explore the repo:** [github.com/m-aboud/nvidia-ai-hpc-portfolio](https://github.com/m-aboud/nvidia-ai-hpc-portfolio)
-
----
-
-## 🛠️ Tech Stack
-
-<p>
-  <img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
-  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img alt="Bash" src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white" />
-  <img alt="Go" src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
-</p>
-
-<p>
-  <img alt="AWS" src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white" />
-  <img alt="Azure" src="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" />
-  <img alt="GCP" src="https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white" />
-  <img alt="Kubernetes" src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
-  <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-  <img alt="OpenShift" src="https://img.shields.io/badge/OpenShift-EE0000?style=flat-square&logo=redhatopenshift&logoColor=white" />
-  <img alt="Terraform" src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white" />
-  <img alt="Ansible" src="https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white" />
-  <img alt="ArgoCD" src="https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white" />
-</p>
-
-<p>
-  <img alt="Prometheus" src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white" />
-  <img alt="Grafana" src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" />
-  <img alt="Loki" src="https://img.shields.io/badge/Loki-F5A800?style=flat-square&logo=grafana&logoColor=white" />
-  <img alt="Elasticsearch" src="https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white" />
-  <img alt="Splunk" src="https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white" />
-  <img alt="NGINX" src="https://img.shields.io/badge/NGINX-009639?style=flat-square&logo=nginx&logoColor=white" />
-</p>
-
-<p>
-  <img alt="OpenAI" src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" />
-  <img alt="Anthropic" src="https://img.shields.io/badge/Anthropic-D4A27F?style=flat-square&logo=anthropic&logoColor=white" />
-  <img alt="LangChain" src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
-  <img alt="NVIDIA GPU" src="https://img.shields.io/badge/NVIDIA%20GPU-76B900?style=flat-square&logo=nvidia&logoColor=white" />
-  <img alt="CUDA" src="https://img.shields.io/badge/CUDA-C%2B%2B-76B900?style=flat-square&logo=nvidia&logoColor=white" />
-  <img alt="DCGM" src="https://img.shields.io/badge/NVIDIA%20DCGM-76B900?style=flat-square&logo=nvidia&logoColor=white" />
-</p>
-
-<p>
-  <img alt="VMware" src="https://img.shields.io/badge/VMware-607078?style=flat-square&logo=vmware&logoColor=white" />
-  <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
-  <img alt="GitLab CI" src="https://img.shields.io/badge/GitLab%20CI-FCA121?style=flat-square&logo=gitlab&logoColor=white" />
-</p>
-
-<p>
-  <img alt="QRadar" src="https://img.shields.io/badge/QRadar-052FAD?style=flat-square&logo=ibm&logoColor=white" />
-  <img alt="Nessus" src="https://img.shields.io/badge/Nessus-00C176?style=flat-square&logo=tenable&logoColor=white" />
-  <img alt="Qualys" src="https://img.shields.io/badge/Qualys-ED2E38?style=flat-square&logo=qualys&logoColor=white" />
-  <img alt="Wireshark" src="https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white" />
-</p>
+This platform demonstrates expertise in:
+- **Platform Engineering**: Designing and building internal developer platforms that accelerate delivery.
+- **Cloud Architecture**: Multi-cloud designs, hybrid deployments, and highly available architectures.
+- **DevSecOps**: Integrating security throughout the development and operations lifecycle.
+- **GitOps**: Declarative infrastructure and application management using Git.
+- **Zero Trust**: Implementing robust security models based on explicit trust verification.
+- **Kubernetes Operations**: Managing complex Kubernetes environments at scale.
+- **SRE**: Applying Site Reliability Engineering principles for operational excellence.
+- **AI Infrastructure**: Building and managing the underlying infrastructure for AI/ML workloads.
+- **Agentic AI**: Developing and integrating autonomous AI agents for various platform functions.
+- **Enterprise Governance**: Establishing policies, audits, and controls for large-scale organizations.
 
 ---
 
