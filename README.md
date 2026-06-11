@@ -78,6 +78,8 @@ open_to:     Senior Architect • Solutions Architect • Presales • Platform 
 
 | Project | Description | Stack |
 |---|---|---|
+| 🤖 [**Agentic Frameworks Lab**](https://github.com/m-aboud/agentic-frameworks-lab) | Three runnable agents — one each in LangGraph, CrewAI, and AutoGen — demonstrating tool use, multi-step reasoning, state handoff, and output guardrails, with offline mock fallbacks for reproducibility. | `LangGraph` `CrewAI` `AutoGen` `Agentic AI` `Guardrails` `Python` |
+| ⚡ [**GPU Workload Orchestration on Kubernetes**](https://github.com/m-aboud/gpu-k8s-orchestration) | Reference platform for scheduling, isolating, and observing GPU workloads on Kubernetes — NVIDIA GPU Operator, per-namespace GPU quotas, time-slicing for multi-tenant sharing, and DCGM→Prometheus→Grafana telemetry, with a parameterized Helm chart and runnable CUDA/PyTorch/Triton examples. | `Kubernetes` `NVIDIA GPU Operator` `Helm` `Triton` `DCGM` `Prometheus` `Python` |
 | 🌟 [**OpenClaw Enterprise Platform**](https://github.com/m-aboud/openclaw-enterprise-platform) | Master architecture, documentation, and governance repository unifying all OpenClaw projects. | `Platform Engineering` `Cloud Architecture` `GitOps` `Zero Trust` `SRE` `AI Infra` |
 | 🟩 [**OpenClaw MCP Agentic Lab**](https://github.com/m-aboud/openclaw-mcp-agentic-lab) | OpenClaw gateway · MCP tool server · Claude + OSS models | `Python` `MCP` `Claude API` `Ollama` `FastAPI` `Typer` `Rich` `Docker` |
 | 🟩 [**NVIDIA AI & HPC Portfolio**](https://github.com/m-aboud/nvidia-ai-hpc-portfolio) | CUDA benchmarking, AI/HPC cluster capacity planning & NVIDIA GPU observability — software-level GPU awareness tied to real data center concerns | `CUDA C++` `Python` `Docker` `DCGM` `Prometheus` `Grafana` |
