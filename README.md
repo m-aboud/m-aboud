@@ -78,6 +78,7 @@ open_to:     Senior Architect • Solutions Architect • Presales • Platform 
 
 | Project | Description | Stack |
 |---|---|---|
+| ☁️ [**GCP Landing Zone Lab**](https://github.com/m-aboud/gcp-landing-zone-lab) | Secure GCP landing zone built with Terraform, private GKE, Cloud SQL, IAM, monitoring, and enterprise migration guidance. | <code>GCP</code> <code>Terraform</code> <code>GKE</code> <code>Cloud SQL</code> <code>IAM</code> <code>VPC</code> <code>DevOps</code> |
 | 🤖 [**Agentic Frameworks Lab**](https://github.com/m-aboud/agentic-frameworks-lab) | Three runnable agents — one each in LangGraph, CrewAI, and AutoGen — demonstrating tool use, multi-step reasoning, state handoff, and output guardrails, with offline mock fallbacks for reproducibility. | `LangGraph` `CrewAI` `AutoGen` `Agentic AI` `Guardrails` `Python` |
 | ⚡ [**GPU Workload Orchestration on Kubernetes**](https://github.com/m-aboud/gpu-k8s-orchestration) | Schedule, isolate, and observe GPU workloads on Kubernetes — GPU Operator, namespace GPU quotas, time-slicing, and DCGM/Grafana telemetry, with a Helm chart and CUDA/PyTorch/Triton examples. | `Kubernetes` `GPU Operator` `Helm` `Triton` `DCGM` `Python` |
 | 🌟 [**OpenClaw Enterprise Platform**](https://github.com/m-aboud/openclaw-enterprise-platform) | Master architecture, documentation, and governance repository unifying all OpenClaw projects. | `Platform Engineering` `Cloud Architecture` `GitOps` `Zero Trust` `SRE` `AI Infra` |
