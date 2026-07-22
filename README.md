@@ -8,7 +8,7 @@
   <a href="https://www.linkedin.com/in/mohammed-a-a209001aa"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="mailto:mohd.aboud@outlook.com"><img alt="Email" src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <img alt="Location" src="https://img.shields.io/badge/Based%20in-Saudi%20Arabia-006C35?style=for-the-badge" />
-  <img alt="Open to work" src="https://img.shields.io/badge/Open%20to-Senior%20Architect%20Roles-2EA44F?style=for-the-badge" />
+  <img alt="Open to work" src="https://img.shields.io/badge/Open%20to-Forward%20Deployed%20%26%20Platform%20Roles-2EA44F?style=for-the-badge" />
 </p>
 
 <p align="center">
@@ -19,18 +19,18 @@
 
 ## 👋 About
 
-I design and deliver **enterprise infrastructure, hybrid cloud platforms, AI automation systems, and data center solutions** across Saudi Arabia and MENA.
+I deploy and operate **AI platforms — LLM and agentic systems — inside enterprise environments**, then stay embedded to make them work in production across Saudi Arabia and MENA.
 
-My work bridges **infrastructure reliability**, **business transformation**, and **automation** — from data center operations and cloud architecture to AI-enabled platforms, observability, and operational excellence.
+My work bridges **hands-on delivery**, **customer-facing engineering**, and **operational reliability** — from shipping Helm-packaged workloads on Kubernetes and GitOps pipelines to observability, security, and day-2 support in private and hybrid cloud.
 
-**Introducing the OpenClaw Enterprise Platform**: A master architecture, documentation, governance, and portfolio repository that unifies all my OpenClaw projects into a single, cohesive enterprise solution. This platform serves as a central hub demonstrating my expertise in building and leading modern cloud initiatives at scale.
+**The OpenClaw platform** is my hub of runnable labs and reference implementations — agentic AI, GitOps delivery, GPU orchestration, and observability — each built to be deployed, not just diagrammed.
 
 ```yaml
-role:        Senior Infrastructure & Cloud Architect
-focus:       AI Infrastructure • Hybrid Cloud • Data Center Modernization
-mindset:     Architecture-first • Automation-by-default • SLO-driven
-currently:   Building AI-native infrastructure blueprints & automation tooling
-open_to:     Senior Architect • Solutions Architect • Presales • Platform Lead
+role:        Forward Deployed Engineer / AI Platform Engineer
+focus:       LLM & Agentic Systems • Kubernetes • Hybrid Cloud • GitOps
+mindset:     Customer-embedded • Ship-and-support • SLO-driven
+currently:   Deploying AI platforms in production across private & hybrid cloud
+open_to:     Forward Deployed Engineer • AI Platform / DevOps • Solutions Engineering
 ```
 
 ---
@@ -41,32 +41,32 @@ open_to:     Senior Architect • Solutions Architect • Presales • Platform 
   <tr>
     <td valign="top" width="50%">
 
-**🏗️ Infrastructure & Cloud**
-- Hybrid Cloud Architecture (AWS, Azure, on-prem)
-- Data Center Engineering (MEP, IT, commissioning)
-- Kubernetes & Container Platforms
-- Infrastructure as Code (Terraform, Ansible)
+**🚀 AI Platform Delivery**
+- LLM & agentic application platforms (production)
+- Multi-model orchestration (Claude, OpenAI, Gemini, Ollama)
+- MCP tool servers & agent frameworks
+- ML/GPU pipeline observability
 
-**🤖 AI Infrastructure**
-- GPU cluster design & scheduling
-- AI-ready data center planning
-- LLM application platforms
-- ML pipeline observability
+**☸️ Kubernetes & Cloud**
+- Production K8s (EKS, GKE, OpenShift) + Helm
+- GitOps delivery (Argo CD, Rollouts, Kyverno)
+- Infrastructure as Code (Terraform, Ansible)
+- Hybrid & multi-cloud (AWS, Azure, GCP, on-prem)
 
 </td>
     <td valign="top" width="50%">
 
-**📊 Operations & Reliability**
+**📊 Reliability & Security**
 - SLO-driven observability (Prometheus, Grafana, Loki)
+- Supply-chain security (Cosign, SLSA, Trivy)
 - Incident response & structured RCA
-- Capacity & power/cooling management
-- IT governance, compliance, audit readiness
+- IAM / RBAC, secrets, compliance & audit readiness
 
-**💼 Presales & Architecture**
-- Solution architecture & design authority
-- Technical presales, PoCs, demos
-- Enterprise architecture frameworks
-- Customer-facing technical leadership
+**🤝 Customer-Facing Engineering**
+- Requirements elicitation & technical discovery
+- Data modeling & schema design
+- PoCs, demos, and solution delivery
+- Enterprise stakeholder enablement
 
 </td>
   </tr>
@@ -78,36 +78,20 @@ open_to:     Senior Architect • Solutions Architect • Presales • Platform 
 
 | Project | Description | Stack |
 |---|---|---|
-| 🛡️ [**Multimodal Incident Copilot**](https://github.com/m-aboud/multimodal-incident-copilot) | AI-powered infrastructure incident triage using vision, OCR, multi-model arbitration, structured reporting, and optional voice briefings. | <code>Python</code> <code>OpenAI</code> <code>Gemini</code> <code>Claude</code> <code>OpenCV</code> <code>Tesseract</code> <code>FastAPI</code> <code>Streamlit</code> <code>Docker</code> |
-| ☁️ [**GCP Landing Zone Lab**](https://github.com/m-aboud/gcp-landing-zone-lab) | Secure GCP landing zone built with Terraform, private GKE, Cloud SQL, IAM, monitoring, and enterprise migration guidance. | <code>GCP</code> <code>Terraform</code> <code>GKE</code> <code>Cloud SQL</code> <code>IAM</code> <code>VPC</code> <code>DevOps</code> |
-| 🤖 [**Agentic Frameworks Lab**](https://github.com/m-aboud/agentic-frameworks-lab) | Three runnable agents — one each in LangGraph, CrewAI, and AutoGen — demonstrating tool use, multi-step reasoning, state handoff, and output guardrails, with offline mock fallbacks for reproducibility. | `LangGraph` `CrewAI` `AutoGen` `Agentic AI` `Guardrails` `Python` |
-| ⚡ [**GPU Workload Orchestration on Kubernetes**](https://github.com/m-aboud/gpu-k8s-orchestration) | Schedule, isolate, and observe GPU workloads on Kubernetes — GPU Operator, namespace GPU quotas, time-slicing, and DCGM/Grafana telemetry, with a Helm chart and CUDA/PyTorch/Triton examples. | `Kubernetes` `GPU Operator` `Helm` `Triton` `DCGM` `Python` |
-| 🌟 [**OpenClaw Enterprise Platform**](https://github.com/m-aboud/openclaw-enterprise-platform) | Master architecture, documentation, and governance repository unifying all OpenClaw projects. | `Platform Engineering` `Cloud Architecture` `GitOps` `Zero Trust` `SRE` `AI Infra` |
-| 🟩 [**OpenClaw MCP Agentic Lab**](https://github.com/m-aboud/openclaw-mcp-agentic-lab) | OpenClaw gateway · MCP tool server · Claude + OSS models | `Python` `MCP` `Claude API` `Ollama` `FastAPI` `Typer` `Rich` `Docker` |
-| 🟩 [**NVIDIA AI & HPC Portfolio**](https://github.com/m-aboud/nvidia-ai-hpc-portfolio) | CUDA benchmarking, AI/HPC cluster capacity planning & NVIDIA GPU observability — software-level GPU awareness tied to real data center concerns | `CUDA C++` `Python` `Docker` `DCGM` `Prometheus` `Grafana` |
-| 🚀 [**GitOps CI/CD Platform**](https://github.com/m-aboud/gitops-cicd-platform) | Full Terraform → EKS → Argo CD → Rollouts → Kyverno reference platform with signed images & SLSA provenance | `Terraform` `Argo CD` `K8s` `Cosign` `Trivy` `Kyverno` |
-| 🤖 [**AI Job Agent**](https://github.com/m-aboud/ai-job-agent) | LLM-powered job discovery, ranking, CV tailoring & Telegram alerts | `Python` `Playwright` `LLMs` `Docker` `SQLite` |
-| 🏢 [**Data Center Ops Toolkit**](https://github.com/m-aboud/datacenter-ops-toolkit) | Calculators & playbooks for UPS, generators, cooling, capacity & RCA | `Python` `CLI` `Markdown` |
-| ⚙️ [**Infra Automation Lab**](https://github.com/m-aboud/infra-automation-lab) | Production-grade Terraform, Ansible, Docker & Kubernetes patterns | `Terraform` `Ansible` `K8s` `GH Actions` |
+| 🚀 [**GitOps CI/CD Platform**](https://github.com/m-aboud/gitops-cicd-platform) | Full Terraform → EKS → Helm → Argo CD → Rollouts → Kyverno reference platform with signed images & SLSA provenance | `Terraform` `Helm` `Argo CD` `K8s` `Cosign` `Trivy` `Kyverno` |
+| ⚡ [**GPU Workload Orchestration on Kubernetes**](https://github.com/m-aboud/gpu-k8s-orchestration) | Schedule, isolate, and observe GPU workloads on K8s — GPU Operator, namespace quotas, time-slicing, DCGM/Grafana telemetry, with a Helm chart and CUDA/PyTorch/Triton examples | `Kubernetes` `Helm` `GPU Operator` `Triton` `DCGM` `Python` |
+| 🟩 [**OpenClaw MCP Agentic Lab**](https://github.com/m-aboud/openclaw-mcp-agentic-lab) | OpenClaw gateway · MCP tool server · Claude + OSS models | `Python` `FastAPI` `MCP` `Claude API` `Ollama` `Typer` `Docker` |
+| 🤖 [**Agentic Frameworks Lab**](https://github.com/m-aboud/agentic-frameworks-lab) | Three runnable agents (LangGraph, CrewAI, AutoGen) demonstrating tool use, multi-step reasoning, state handoff, and output guardrails, with offline mock fallbacks | `LangGraph` `CrewAI` `AutoGen` `Agentic AI` `Guardrails` `Python` |
+| 🛡️ [**Multimodal Incident Copilot**](https://github.com/m-aboud/multimodal-incident-copilot) | AI-powered infrastructure incident triage using vision, OCR, multi-model arbitration, structured reporting, and optional voice briefings | `Python` `OpenAI` `Gemini` `Claude` `OpenCV` `Tesseract` `FastAPI` `Streamlit` `Docker` |
+| ☁️ [**GCP Landing Zone Lab**](https://github.com/m-aboud/gcp-landing-zone-lab) | Secure GCP landing zone built with Terraform — private GKE, Cloud SQL, IAM, monitoring, and enterprise migration guidance | `GCP` `Terraform` `GKE` `Cloud SQL` `IAM` `VPC` `DevOps` |
 | 📊 [**Observability Platform**](https://github.com/m-aboud/observability-platform) | Full Prometheus + Grafana + Loki + Alertmanager stack with rules | `Docker` `Prometheus` `Grafana` `Loki` |
+| ⚙️ [**Infra Automation Lab**](https://github.com/m-aboud/infra-automation-lab) | Production-grade Terraform, Ansible, Docker & Kubernetes patterns | `Terraform` `Ansible` `K8s` `GH Actions` |
+| 🟩 [**NVIDIA AI & HPC Portfolio**](https://github.com/m-aboud/nvidia-ai-hpc-portfolio) | CUDA benchmarking, AI/HPC cluster capacity planning & NVIDIA GPU observability tied to real data center concerns | `CUDA C++` `Python` `Docker` `DCGM` `Prometheus` `Grafana` |
+| 🌟 [**OpenClaw Enterprise Platform**](https://github.com/m-aboud/openclaw-enterprise-platform) | Master architecture, documentation, and governance repository unifying all OpenClaw projects | `Platform Engineering` `GitOps` `Zero Trust` `SRE` `AI Infra` |
+| 🤖 [**AI Job Agent**](https://github.com/m-aboud/ai-job-agent) | LLM-powered job discovery, ranking, CV tailoring & Telegram alerts | `Python` `Playwright` `LLMs` `Docker` `SQLite` |
 | 🧠 [**AI Infrastructure Blueprints**](https://github.com/m-aboud/ai-infrastructure-blueprints) | Reference architectures for AI-ready DCs, GPU clusters, K8s scheduling | `Markdown` `Mermaid` `K8s` `GPU` |
+| 🏢 [**Data Center Ops Toolkit**](https://github.com/m-aboud/datacenter-ops-toolkit) | Calculators & playbooks for UPS, generators, cooling, capacity & RCA | `Python` `CLI` `Markdown` |
 | 📁 [**Portfolio**](https://github.com/m-aboud/portfolio) | Architecture samples, PoC writeups & solution design artefacts | `Markdown` `Diagrams` |
-
----
-
-## 🌟 OpenClaw Enterprise Platform — Interview-Ready Summary
-
-This platform demonstrates expertise in:
-- **Platform Engineering**: Designing and building internal developer platforms that accelerate delivery.
-- **Cloud Architecture**: Multi-cloud designs, hybrid deployments, and highly available architectures.
-- **DevSecOps**: Integrating security throughout the development and operations lifecycle.
-- **GitOps**: Declarative infrastructure and application management using Git.
-- **Zero Trust**: Implementing robust security models based on explicit trust verification.
-- **Kubernetes Operations**: Managing complex Kubernetes environments at scale.
-- **SRE**: Applying Site Reliability Engineering principles for operational excellence.
-- **AI Infrastructure**: Building and managing the underlying infrastructure for AI/ML workloads.
-- **Agentic AI**: Developing and integrating autonomous AI agents for various platform functions.
-- **Enterprise Governance**: Establishing policies, audits, and controls for large-scale organizations.
 
 ---
 
@@ -132,13 +116,10 @@ This platform demonstrates expertise in:
 
 <p>
   <img alt="PMP" src="https://img.shields.io/badge/PMP-Project%20Management%20Professional-FFA500?style=flat-square" />
-  <img alt="CISM" src="https://img.shields.io/badge/CISM-Information%20Security%20Manager-D14836?style=flat-square" />
-  <img alt="CISSP" src="https://img.shields.io/badge/CISSP-Security%20Professional-003366?style=flat-square" />
-  <img alt="AWS SA" src="https://img.shields.io/badge/AWS-Solutions%20Architect-FF9900?style=flat-square&logo=amazonaws&logoColor=white" />
-  <img alt="Azure DevOps" src="https://img.shields.io/badge/Azure-DevOps%20Expert-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" />
-  <img alt="Terraform" src="https://img.shields.io/badge/HashiCorp-Terraform%20Associate-7B42BC?style=flat-square&logo=terraform&logoColor=white" />
   <img alt="CKA" src="https://img.shields.io/badge/CNCF-Certified%20Kubernetes%20Admin-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
+  <img alt="Terraform" src="https://img.shields.io/badge/HashiCorp-Terraform%20Associate-7B42BC?style=flat-square&logo=terraform&logoColor=white" />
   <img alt="NVIDIA NCA-AIIO" src="https://img.shields.io/badge/NVIDIA-NCA--AIIO%20AI%20Infrastructure%20%26%20Operations-76B900?style=flat-square&logo=nvidia&logoColor=white" />
+  <img alt="CDCE" src="https://img.shields.io/badge/EPI-Certified%20Data%20Centre%20Expert%20(CDCE)-0A6C74?style=flat-square" />
 </p>
 
 📜 Verify all certifications via my [Credly profile](https://www.credly.com/users/mohammed-aboud.937de765)
@@ -147,11 +128,11 @@ This platform demonstrates expertise in:
 
 ## 💡 Selected Achievements
 
-- 🏢 Architected and governed enterprise data center and hybrid cloud environments supporting **200+ production services**.
-- ⚡ Led **modular data center delivery** covering MEP, IT, security, commissioning, and operational readiness.
-- 🎯 Supported **presales discovery, demos, PoCs, proposals**, and customer-facing solution architecture.
+- 🚀 Built and shipped a **GitOps delivery platform** (Terraform → EKS → Helm → Argo CD → Rollouts → Kyverno) with Cosign-signed images and SLSA provenance.
+- ☸️ Deployed and operated **AI, conversational, and communication platforms** on Kubernetes/OpenShift for **5,000+ enterprise customers** across MENA.
+- 🤝 Led **technical discovery, PoCs, and enterprise enablement**, driving adoption of cloud and AI platforms across strategic accounts.
 - 📉 Reduced monitoring noise and incident recurrence through **SLO-driven observability** and structured RCA practices.
-- 🔄 Delivered **infrastructure automation**, cloud operations, compliance alignment, and service reliability improvements.
+- 🔄 Delivered **infrastructure automation** and multi-cloud landing zones, cutting new-environment provisioning from weeks to hours.
 
 ---
 
@@ -160,22 +141,22 @@ This platform demonstrates expertise in:
 ```mermaid
 mindmap
   root((Mohammed Aboud))
-    AI Infrastructure
-      GPU Platforms
+    AI Platforms
       LLM Operations
-      AI-Ready DCs
-    Cloud Platforms
+      Agentic Systems
+      GPU Orchestration
+    Kubernetes & Cloud
+      Helm & GitOps
       Hybrid Cloud
-      Kubernetes
       Platform Engineering
-    Data Center
-      Modernization
-      Capacity Planning
-      Operational Excellence
-    Architecture
-      Solution Design
-      Presales
-      Enterprise Architecture
+    Reliability
+      Observability
+      Supply-Chain Security
+      Incident Response
+    Customer Delivery
+      Requirements Elicitation
+      PoCs & Demos
+      Solution Delivery
 ```
 
 ---
@@ -194,4 +175,4 @@ mindmap
   </a>
 </p>
 
-<p align="center"><i>Architecture is the art of saying "no" with a diagram. ✏️</i></p>
+<p align="center"><i>I ship AI into production — and stay to make it work. 🚀</i></p>
