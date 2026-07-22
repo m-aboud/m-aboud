@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="https://github.com/m-aboud">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3500&pause=900&color=4F8FF7&center=true&vCenter=true&width=720&lines=Mohammed+Aboud;Senior+Infrastructure+%26+Cloud+Architect;AI+Infrastructure+%E2%80%A2+Data+Center+%E2%80%A2+DevOps;Kubernetes+%E2%80%A2+Observability+%E2%80%A2+Automation" alt="Mohammed Aboud" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3500&pause=900&color=4F8FF7&center=true&vCenter=true&width=760&lines=Mohammed+Aboud;Forward+Deployed+Engineer+%E2%80%A2+AI+Platform+Engineer;Ships+LLM+%26+Agentic+Systems+in+Production;Kubernetes+%E2%80%A2+Helm+%E2%80%A2+GitOps+%E2%80%A2+Terraform+%E2%80%A2+Multi-Cloud" alt="Mohammed Aboud" />
   </a>
 </h1>
 
